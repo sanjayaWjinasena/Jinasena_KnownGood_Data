@@ -1,0 +1,47 @@
+id,name,users/id,comment,color,implied_ids/id
+res_groups_jin_test_jam_group_2,# Jin - Test JAM Group 2,,Test 2,0,
+res_groups_jin_test_jam_group_3,# Jin - Test JAM Group 3,,Test 2,0,
+res_groups_jin_test_jam_group_4,# Jin - Test JAM Group 4,,Test 3,0,
+res_groups_accpay_vendor_bills,AccPay - Vendor Bills,seed_master_data_and_settings.user_146,,0,"account.group_account_invoice,account_accountant.group_account_readonly"
+res_groups_data_clean,Data Clean,"seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",,0,
+res_groups_default_user_read_only_for_all_models,Default User - Read only for all models,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2,seed_master_data_and_settings.user_746",,0,
+res_groups_ekala,EKALA,,,0,base.group_system
+res_groups_group_a,Group A,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_2",,0,
+res_groups_group_ab,Group AB,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_2",,0,
+res_groups_group_abc,Group ABC,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_2",,0,
+res_groups_hr_1,HR-1,,,0,
+res_groups_hr_2,HR-2,,,0,
+res_groups_it_staff_for_visibility_controls_only,IT Staff (For Visibility Controls Only),"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",,0,
+res_groups_invoicing,Invoicing,,,0,base.group_user
+res_groups_ja_ela,JA-ELA,,,0,
+res_groups_jin_bankrec,Jin - BankRec,,,0,base.group_user
+res_groups_jin_hr_payroll,Jin - HR-Payroll,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2,seed_master_data_and_settings.user_746",,0,
+res_groups_jin_plm_eco_creator,Jin - PLM - ECO Creator,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",The PLM user uses products lifecycle management,0,
+res_groups_jin_plm_eco_operator,Jin - PLM - ECO Operator,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",The PLM user uses products lifecycle management,0,mrp.group_mrp_user
+res_groups_jin_po_invoicing_payment_inventory_cash,Jin - PO Invoicing & Payment - Inventory Cash,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_24",,0,
+res_groups_jin_po_invoicing_payment_non_inventory_c,Jin - PO Invoicing & Payment - Non-Inventory Cash,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",,0,
+res_groups_jin_project_users,Jin - Project Users,seed_master_data_and_settings.user_24,,0,
+res_groups_jin_sales_create_sales_orders,Jin - Sales - Create Sales Orders,"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24",,0,
+res_groups_jin_sales_edit_all_customers_ca_cr_dlr_d,Jin - Sales - Edit All Customers (Ca/Cr/Dlr/Dstb/SVAT),"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_746",11111,0,
+res_groups_jin_sales_edit_all_customers_limits_cr_d,Jin - Sales - Edit All Customers Limits (Cr/Dealer),"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24",11111,0,
+res_groups_jin_sales_so_line_unit_price_change_perm,Jin - Sales - SO line.Unit price - Change permission,"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2",,0,
+res_groups_jin_sales_show_btn_set_to_quotation_in_s,Jin - Sales - Show btn. SET TO QUOTATION in Sales Orders,seed_master_data_and_settings.user_24,,0,
+res_groups_jin_tp_invoicing_payment,Jin - TP Invoicing & Payment,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_24",,0,
+res_groups_jin_test_mili,Jin - Test - Mili,,,0,
+res_groups_jin_po_creator,Jin_PO_Creator,,,0,
+res_groups_manufacturing_manufacturing_mo_creator,Manufacturing - Manufacturing - MO Creator,,,0,
+res_groups_manufacturing_manufacturing_mo_operator,Manufacturing - Manufacturing - MO Operator,,,0,
+res_groups_manufacturing_master_plan_creator_add_a_,Manufacturing - Master Plan Creator [ Add a Product ],,,0,
+res_groups_manufacturing_master_plan_operator_reple,Manufacturing - Master Plan Operator [ Replenish ],,,0,
+res_groups_manufacturing_only_view_rights,Manufacturing - Only view Rights,,,0,
+res_groups_my_first,My First,,,0,"mrp.group_mrp_user,quality.group_quality_user"
+res_groups_pr_approval,PR Approval,"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_2,seed_master_data_and_settings.user_746",,0,
+res_groups_product_modifications,Product Modifications,,,0,
+res_groups_sales_branch_users,SALES_BRANCH_USERS,,,0,
+res_groups_stock_control,Stock_Control,,,0,stock.group_stock_manager
+res_groups_test_sales_1,TEST - SALES - 1,,,0,
+res_groups_test_sales_inheritance_min_rights,Test - Sales Inheritance - Min Rights,"seed_master_data_and_settings.user_164,seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_24,seed_master_data_and_settings.user_2,seed_master_data_and_settings.user_746",,0,
+res_groups_test_all,Test_All,seed_master_data_and_settings.user_2,,0,
+res_groups_work_centre_visibility,Work Centre Visibility,seed_master_data_and_settings.user_8,,0,
+res_groups_workcentertesting,WorkCenterTesting,"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_2",,0,
+res_groups_newgroupbyshehan,newgroupbyshehan,,,0,

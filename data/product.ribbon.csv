@@ -1,0 +1,7 @@
+id,html,bg_color,text_color,html_class
+product_ribbon_id_5,No Img 2 &amp; Dim,"rgb(255, 0, 0)","rgb(255, 255, 255)",o_ribbon_left
+product_ribbon_id_6,No img 2,"rgb(255, 0, 0)","rgb(255, 255, 255)",o_ribbon_left
+product_ribbon_id_7,No Dim,,var(--o-color-3),o_not_editable o_dirty bg-primary o_ribbon_left
+product_ribbon_id_8,No img,"rgb(255, 0, 0)",,o_ribbon_left
+product_ribbon_id_9,Other format,,,bg-primary o_ribbon_left
+product_ribbon_id_10,No img &amp; Dim,,,bg-primary o_ribbon_left

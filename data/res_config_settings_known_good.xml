@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings of company "Jinasena Agricultural Machinery (Pvt) Ltd." on the known-good env (v17-final-39088506), applied once at install
+     exactly like pressing Save on the Settings screen. Only settings that differed from a fresh
+     install are listed; app switches (module_*) are left out so no app is installed or removed.
+     noupdate=1: an upgrade does not apply them again, so later changes made in Settings stay. -->
+<odoo noupdate="1">
+  <record id="settings_known_good_company_jam" model="res.config.settings">
+    <field name="company_id" ref="seed_master_data_and_settings.company_jinasena_agricultural_machinery"/>
+    <!-- Analytic Accounting -->
+    <field name="group_analytic_accounting" eval="True"/>
+    <!-- Group Applicant Cv Display -->
+    <field name="group_applicant_cv_display" eval="False"/>
+    <!-- Lock Confirmed Sales -->
+    <field name="group_auto_done_setting" eval="True"/>
+    <!-- Cash Rounding -->
+    <field name="group_cash_rounding" eval="True"/>
+    <!-- Fiscal Years -->
+    <field name="group_fiscal_year" eval="True"/>
+    <!-- Extra Quotations -->
+    <field name="group_industry_fsm_quotations" eval="True"/>
+    <!-- Display Lots &amp; Serial Numbers on Delivery Slips -->
+    <field name="group_lot_on_delivery_slip" eval="True"/>
+    <!-- Allocation Report for Manufacturing Orders -->
+    <field name="group_mrp_reception_report" eval="True"/>
+    <!-- Multi-website -->
+    <field name="group_multi_website" eval="False"/>
+    <!-- Group Payslip Display -->
+    <field name="group_payslip_display" eval="False"/>
+    <!-- Variants -->
+    <field name="group_product_variant" eval="False"/>
+    <!-- Pro-Forma Invoice -->
+    <field name="group_proforma_sales" eval="True"/>
+    <!-- Milestones -->
+    <field name="group_project_milestone" eval="False"/>
+    <!-- Customer Ratings -->
+    <field name="group_project_rating" eval="True"/>
+    <!-- Recurring Tasks -->
+    <field name="group_project_recurring_tasks" eval="True"/>
+    <!-- Project Stages -->
+    <field name="group_project_stages" eval="True"/>
+    <!-- Task Dependencies -->
+    <field name="group_project_task_dependencies" eval="True"/>
+    <!-- Purchase Receipt -->
+    <field name="group_show_purchase_receipts" eval="True"/>
+    <!-- Automatic Stock Accounting -->
+    <field name="group_stock_accounting_automatic" eval="True"/>
+    <!-- Multi-Step Routes -->
+    <field name="group_stock_adv_location" eval="True"/>
+    <!-- Reception Report -->
+    <field name="group_stock_reception_report" eval="True"/>
+    <!-- Unlock Manufacturing Orders -->
+    <field name="group_unlocked_by_default" eval="True"/>
+    <!-- Sale Order Warnings -->
+    <field name="group_warning_sale" eval="True"/>
+    <!-- Warnings for Stock -->
+    <field name="group_warning_stock" eval="True"/>
+    <!-- Count Extra Hours -->
+    <field name="hr_attendance_overtime" eval="True"/>
+    <!-- Based on number of emails sent -->
+    <field name="hr_presence_control_email" eval="False"/>
+    <!-- Invoice Email Template -->
+    <field name="invoice_mail_template_id" ref="account.email_template_edi_invoice"/>
+    <!-- Enrich lead automatically -->
+    <field name="lead_enrich_auto">manual</field>
+    <!-- 24H Stat Mailing Reports -->
+    <field name="mass_mailing_reports" eval="False"/>
+    <!-- Extra Hours Starting Date -->
+    <field name="overtime_start_date">2024-09-01</field>
+    <!-- Lead Scoring Frequency Fields in String -->
+    <field name="predictive_lead_scoring_fields_str">state_id,country_id,phone_state,email_state,source_id</field>
+    <!-- Minimum score -->
+    <field name="recaptcha_min_score" eval="0.5"/>
+    <!-- Blacklist Option when Unsubscribing -->
+    <field name="show_blacklist_buttons" eval="False"/>
+    <!-- Security Lead Time for Purchase -->
+    <field name="use_po_lead" eval="True"/>
+    <!-- Security Lead Time for Sales -->
+    <field name="use_security_lead" eval="True"/>
+    <!-- Default Access Rights -->
+    <field name="user_default_rights" eval="True"/>
+  </record>
+  <function model="res.config.settings" name="execute" eval="[ref('settings_known_good_company_jam')]"/>
+</odoo>
