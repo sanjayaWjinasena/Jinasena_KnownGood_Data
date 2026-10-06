@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : Known-Good Data',
-    'version': '17.0.0.0.1',
+    'version': '17.0.0.0.2',
     'summary': 'Users & access, products, Knowledge, Website and Settings of Jinasena Agricultural '
                'Machinery, taken from the known-good env. For the new-install environment only.',
     'description': """
