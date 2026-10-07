@@ -34,7 +34,7 @@ res_groups_manufacturing_manufacturing_mo_operator,Manufacturing - Manufacturing
 res_groups_manufacturing_master_plan_creator_add_a_,Manufacturing - Master Plan Creator [ Add a Product ],,,0,
 res_groups_manufacturing_master_plan_operator_reple,Manufacturing - Master Plan Operator [ Replenish ],,,0,
 res_groups_manufacturing_only_view_rights,Manufacturing - Only view Rights,,,0,
-res_groups_my_first,My First,,,0,"mrp.group_mrp_user,quality.group_quality_user"
+res_groups_my_first,My First,,,0,"quality.group_quality_user,mrp.group_mrp_user"
 res_groups_pr_approval,PR Approval,"seed_master_data_and_settings.user_8,seed_master_data_and_settings.user_2,seed_master_data_and_settings.user_746",,0,
 res_groups_product_modifications,Product Modifications,,,0,
 res_groups_sales_branch_users,SALES_BRANCH_USERS,,,0,

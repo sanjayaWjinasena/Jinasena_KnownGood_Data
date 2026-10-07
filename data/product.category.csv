@@ -2,8 +2,8 @@ id,name,complete_name,parent_path,packaging_reserve_method,x_studio_company_id/i
 product_category_co_ge_33,CO-GE-33,CO-GE-33,1785/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Components-General-GENERAL
 product_category_fa_mc_41,FA-MC-41,FA-MC-41,1845/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,FIXED ASSETS-PLANT AND MACHINARY-IMPORTS
 product_category_fg_4w_23,FG-4W-23,FG-4W-23,1846/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-4 WHL TRACTORS
-product_category_fg_en_30,FG-EN-30,FG-EN-30,1693/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Finished Goods-ENGINES
-product_category_fg_en_30_1847,FG-EN-30,FG-EN-30,1847/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-ENGINES
+product_category_fg_en_30,FG-EN-30,FG-EN-30,1847/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-ENGINES
+product_category_fg_en_30_1693,FG-EN-30,FG-EN-30,1693/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Finished Goods-ENGINES
 product_category_fg_je_sm,FG-JE-SM,FG-JE-SM,1848/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-Sale Motors - Manufactured in JEM Department
 product_category_fg_ma_26,FG-MA-26,FG-MA-26,1849/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-MACHINES
 product_category_fg_th_20,FG-TH-20,FG-TH-20,1850/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-THRESHERS
@@ -39,15 +39,15 @@ product_category_rm_ge_19,RM-GE-19,RM-GE-19,1873/,partial,seed_master_data_and_s
 product_category_rm_ge_20,RM-GE-20,RM-GE-20,1874/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-HOSES ETC.
 product_category_rm_ge_21,RM-GE-21,RM-GE-21,1739/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-ACCESSORIES & IMPLEMENTS
 product_category_rm_ge_21_1875,RM-GE-21,RM-GE-21,1875/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-ACCESSORIES & IMPLEMENTS
-product_category_rm_ge_23,RM-GE-23,RM-GE-23,1740/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-THRESHERS SPARES
-product_category_rm_ge_23_1876,RM-GE-23,RM-GE-23,1876/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-THRESHERS SPARES
-product_category_rm_ge_25,RM-GE-25,RM-GE-25,1741/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-PUMP ACCESSORIES
-product_category_rm_ge_25_1877,RM-GE-25,RM-GE-25,1877/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-PUMP ACCESSORIES
+product_category_rm_ge_23,RM-GE-23,RM-GE-23,1876/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-THRESHERS SPARES
+product_category_rm_ge_23_1740,RM-GE-23,RM-GE-23,1740/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-THRESHERS SPARES
+product_category_rm_ge_25,RM-GE-25,RM-GE-25,1877/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-PUMP ACCESSORIES
+product_category_rm_ge_25_1741,RM-GE-25,RM-GE-25,1741/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-PUMP ACCESSORIES
 product_category_rm_ge_26,RM-GE-26,RM-GE-26,1878/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-MACHINED CASTINGS
 product_category_rm_ge_27,RM-GE-27,RM-GE-27,1879/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-PRIME MOVERS
 product_category_rm_ge_28,RM-GE-28,RM-GE-28,1880/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,"Raw Materials-General Items-PAINTS, FUELS & LUBRIC"
-product_category_rm_ge_29,RM-GE-29,RM-GE-29,1881/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-TRADINGS ITEMS
-product_category_rm_ge_29_1745,RM-GE-29,RM-GE-29,1745/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-TRADINGS ITEMS
+product_category_rm_ge_29,RM-GE-29,RM-GE-29,1745/,partial,seed_master_data_and_settings.company_jinasena_pvt_ltd,Raw Materials-General Items-TRADINGS ITEMS
+product_category_rm_ge_29_1881,RM-GE-29,RM-GE-29,1881/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-TRADINGS ITEMS
 product_category_rm_ge_31,RM-GE-31,RM-GE-31,1882/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-RAW CASTINGS
 product_category_rm_ge_40,RM-GE-40,RM-GE-40,1883/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Raw Materials-General Items-STATIONARY
 product_category_rm_ge_48,RM-GE-48,RM-GE-48,1884/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,( Not in use )
@@ -74,7 +74,3 @@ product_category_sa_ge_im_1901,SA-GE-IM,SA-GE-IM,1901/,partial,seed_master_data_
 product_category_ss_ge_34,SS-GE-34,SS-GE-34,1902/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Sub Sub Assembly-General-GENERAL
 product_category_sv_lb_60,SV-LB-60,SV-LB-60,1903/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,SERVICES - SERVICES AND LABOUR CHARGES
 product_category_sv_lc_61,SV-LC-61,SV-LC-61,1906/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Landed Costs
-product_category_x7,X7,X7,1912/,partial,,
-product_category_x8,X8,X8,1910/,partial,,
-product_category_x9,X9,X9,1911/,partial,,
-product_category_rm_ge_32,rm-ge-32,rm-ge-32,1909/,partial,,

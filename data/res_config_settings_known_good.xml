@@ -20,6 +20,8 @@
     <field name="group_industry_fsm_quotations" eval="True"/>
     <!-- Display Lots &amp; Serial Numbers on Delivery Slips -->
     <field name="group_lot_on_delivery_slip" eval="True"/>
+    <!-- Display Lots &amp; Serial Numbers on Invoices -->
+    <field name="group_lot_on_invoice" eval="True"/>
     <!-- Allocation Report for Manufacturing Orders -->
     <field name="group_mrp_reception_report" eval="True"/>
     <!-- Multi-website -->
