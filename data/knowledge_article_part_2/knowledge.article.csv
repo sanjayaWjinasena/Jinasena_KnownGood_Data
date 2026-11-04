@@ -1420,8 +1420,8 @@ Action – Business Logic of the Report</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</
     <p>&nbsp;&nbsp;&nbsp; # Production Overview - WIP</p>
     <p>&nbsp;&nbsp;&nbsp; for line in report_type_lines:</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; create_sub_model =
-    env['x_rm_production_orders'].create({'x_studio_sales_report_model_id':record.id,'x_studio_production_id':line.id,'x_studio_product_code':line.product_id.id,'x_studio_description':line.product_id.name,'x_studio_warehouse':line.location_dest_id.id,'x_studio_status':line.state,'x_studio_estimated':line.product_qty,'x_studio_started':line.qty_producing,'x_studio_start':line.date_start,'x_studio_header_reference':
-    record.x_name,'x_studio_end':line.date_finished})</p>
+    env['x_rm_production_orders'].create({'x_studio_sales_report_model_id':record.id,'x_studio_production_id':line.id,'x_studio_product_code':line.product_id.id,'description':line.product_id.name,'x_studio_warehouse':line.location_dest_id.id,'x_studio_status':line.state,'x_studio_estimated':line.product_qty,'x_studio_started':line.qty_producing,'x_studio_start':line.date_start,'x_studio_header_reference':
+    record.name,'x_studio_end':line.date_finished})</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
     <p>&nbsp; </p>
     

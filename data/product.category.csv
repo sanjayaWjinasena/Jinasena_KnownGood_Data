@@ -1,4 +1,4 @@
-id,name,complete_name,parent_path,packaging_reserve_method,x_studio_company_id/id,x_studio_description
+id,name,complete_name,parent_path,packaging_reserve_method,accounting_company_id/id,description
 product_category_co_ge_33,CO-GE-33,CO-GE-33,1785/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Components-General-GENERAL
 product_category_fa_mc_41,FA-MC-41,FA-MC-41,1845/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,FIXED ASSETS-PLANT AND MACHINARY-IMPORTS
 product_category_fg_4w_23,FG-4W-23,FG-4W-23,1846/,partial,seed_master_data_and_settings.company_jinasena_agricultural_machinery,Finished Goods-4 WHL TRACTORS
