@@ -698,7 +698,7 @@
    "seed_master_data_and_settings.company_jinasena_agricultural_machinery",
    "seed_master_data_and_settings.company_jltd"
   ],
-  "company": "seed_master_data_and_settings.company_jinasena_pvt_ltd",
+  "company": "seed_master_data_and_settings.company_jinasena_agricultural_machinery",
   "groups": [
    "BugFix-Approvals.group_105_test_mo_markasdone",
    "BugFix-Approvals.group_112_jin_po_approvers_po_amount_500_000",
