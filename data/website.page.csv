@@ -19,8 +19,8 @@ website_page_id_45,,/helpdesk,Jinasena_KnownGood_Data.ir_ui_view_helpdesk,1,1,1
 website_page_id_35,,/purification-v01,Jinasena_KnownGood_Data.ir_ui_view_purification_v01,1,1,1
 website_page_id_24,,/teams,Jinasena_KnownGood_Data.ir_ui_view_teams,1,1,1
 website_page_id_16,1,/jobs,website_hr_recruitment.index,1,1,1
-website_page_id_47,,/faq,BugFix-Studio-Misc.view_8241_qweb_faq,1,1,1
-website_page_id_48,,/faq-1,BugFix-Studio-Misc.view_8241_qweb_faq,1,1,1
+website_page_id_47,,/faq,BugFix-Studio-Misc.view_qweb_faq,1,1,1
+website_page_id_48,,/faq-1,BugFix-Studio-Misc.view_qweb_faq,1,1,1
 website_page_id_49,,/te,Jinasena_KnownGood_Data.ir_ui_view_te,1,1,1
 website_page_id_17,1,/general,Jinasena_KnownGood_Data.ir_ui_view_general_5434,1,1,1
 website_page_id_39,1,/https/rohanabalagalla-jinstage-jindbconfigure-13436509-dev-odoo-com/1,website.aboutus,1,1,1
