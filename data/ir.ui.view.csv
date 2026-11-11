@@ -6678,8 +6678,8 @@ ir_ui_view_te,te,website.te,16,qweb,"<t t-name=""custom.faq_embed"">
                 <div t-attf-class=""#{'col-lg-3 col-md-4 col-sm-6' if layout_mode == 'grid' else 'col-12'} mb-3"">
                     <div class=""card h-100 shadow-sm"">
                         <div class=""card-body"">
-                            <h5 class=""card-title text-primary"" t-field=""record.x_studio_question""/>
-                            <p class=""card-text"" t-field=""record.x_studio_answer""/>
+                            <h5 class=""card-title text-primary"" t-field=""record.question""/>
+                            <p class=""card-text"" t-field=""record.answer""/>
                         </div>
                     </div>
                 </div>
