@@ -1,4 +1,4 @@
-"""v0.0.7: pin the seeded knowledge.article records as noupdate so they stop being re-imported.
+"""v0.0.8: pin the seeded knowledge.article records as noupdate so they stop being re-imported.
 
 Why this exists
 ---------------
