@@ -44,5 +44,41 @@ def apply_known_good_users(env):
     _logger.info("known-good users: %d created, %d updated", created, updated)
 
 
+def pin_seeded_articles(env):
+    """Flag the seeded knowledge.article records noupdate so they are imported once.
+
+    data/knowledge_article_part_*/knowledge.article.csv build each article's
+    members from one2many sub-columns (article_member_ids/partner_id/id and
+    .../permission). Those member lines carry no XML id, so a later re-import
+    cannot match the line it wrote and inserts a second one instead, which
+    knowledge rejects:
+
+        duplicate key value violates unique constraint
+            "knowledge_article_member_unique_article_partner"
+
+    The member has to stay inline -- the two articles that have one are
+    internal_permission='read', and _check_is_writable demands a write member
+    at creation time -- so the import itself is made one-shot instead.
+    _load_records skips a noupdate xmlid in update mode, which is the right
+    semantics for a known-good snapshot: it seeds a database once.
+
+    migrations/17.0.0.0.7/pre-migrate.py does the same for databases that were
+    already installed before this was added.
+    """
+    env.cr.execute(
+        """
+        UPDATE ir_model_data
+           SET noupdate = true
+         WHERE module = %s
+           AND model = 'knowledge.article'
+           AND noupdate IS NOT TRUE
+        """,
+        ("Jinasena_KnownGood_Data",),
+    )
+    _logger.info("known-good: pinned %d seeded knowledge.article record(s) as noupdate",
+                 env.cr.rowcount)
+
+
 def post_init_hook(env):
     apply_known_good_users(env)
+    pin_seeded_articles(env)
